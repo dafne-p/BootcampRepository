@@ -1,0 +1,63 @@
+
+body {
+    font-family: calibri;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.container {
+    text-align: center;
+}
+
+.personaldata {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: calibri;
+}
+
+#Avatar {
+    width: 150px;
+}
+
+label {
+    display: block;
+    color: rgb(23, 104, 124);;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+label #name {
+    font-size: 17px;
+    display: block;
+    font-family: calibri;
+}
+
+label #surname {
+    font-size: 17px;
+    display: block;
+    font-family: calibri;
+}
+
+.button {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.update {
+    font-family: calibri;
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(23, 104, 124);
+    padding: 2px;
+}
+
