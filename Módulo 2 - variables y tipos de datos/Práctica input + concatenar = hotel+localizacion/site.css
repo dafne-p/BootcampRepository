@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial;
     margin-left: 130px;
     margin-right: 130px;
 }
@@ -18,10 +18,27 @@ body {
     border: 3px solid #155670
 }
 
-.nombre {
+.hotel-name {
+    text-align: center;
     color:#155670;
     text-shadow: 3px 3px 10px white;
+    font-size: 20px;
+    padding: 5px;
+    display: block;
+    font-weight: bold;
 }
+
+
+.hotel-location {
+    text-align: center;
+    color:#155670;
+    text-shadow: 3px 3px 10px white;
+    font-size: 20px;
+    padding: 5px;
+    display: block;
+    font-weight: bold;
+}
+
 
 .hotel1 {
     padding: 20px;
