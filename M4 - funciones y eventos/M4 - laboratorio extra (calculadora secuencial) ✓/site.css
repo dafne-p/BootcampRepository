@@ -1,0 +1,64 @@
+body {
+    margin: 50px;
+    font-size: 20px;
+    font-family: "Arial Narrow";
+}
+
+h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(91, 94, 100);
+    border-radius: 10px;
+    color: rgb(240, 240, 255);
+    text-shadow: 0px 0px 7px rgb(88, 88, 88);
+}
+
+#container {
+    background-color: rgb(50, 49, 54);
+    width: 20%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 40%;
+}
+
+#operar {
+    background-color: rgb(218, 222, 255);
+    border-radius: 15px;
+}
+
+#valores, #buttons, #resultado {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+input {
+    width: 40%;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+#valor1 {
+    margin-right: 3px;
+}
+
+#valor1 {
+    margin-left: 3px;
+}
+
+#buttonSuma, #buttonResta, #buttonMulti, #buttonDivision {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M4 - laboratorio extra (hotel)</title>
+</head>
+<body>
+
+    <h2>M4 - laboratorio extra (hotel)</h2>
+
+    <div id="container">
+    
+        <div id="container-room-type">
+            <label for="Tipo habitación"> Seleccione tipo de habitación
+            <select name="room-type" id="room-type">
+                <option value="">Seleccione</option>
+                <option id="b-standard" value="Standard">Standard</option>
+                <option id="b-jSuite" value="jSuite">Junior Suite</option>
+                <option id="b-suite" value="Suite">Suite</option>
+            </select>
+            </label>
+        </div>
+    
+     <br>
+    
+        <div id="container-spa">
+            <label for=""></label>
+            <input id="b-spa" type="checkbox" value="true" >Incluir SPA
+            </label>
+        </div>
+    
+     <br>
+    
+        <div id="container-people">
+            <label for="">Seleccione tipo de ocupación
+            <select name="room-people" id="room-people">
+                <option value="">Seleccione</option>
+                <option id="b-individual" value="Individual">Individual</option>
+                <option id="b-doble" value="Doble">Doble</option>
+                <option id="b-triple" value="Triple">Triple</option>
+            </select>
+            </label>
+        </div>
+    
+     <br>
+    
+        <div id="container-count">
+           <label id="boton-count" for="">Número de noches<input id="b-count" type="text" ></label>
+        </div>
+    
+     <br>
+    
+        <div id="container-parking">
+            <label id="boton-parking" for="">¿Cuántas noches de parking desea?<input id="b-parking" type="text"></label>
+        </div>
+    
+     <br>
+        <div id="container-button">
+            <button id="b-calculate" >Calcular coste total de la estancia</button>
+        </div>
+    
+    <br>
+    
+        <div id="result">
+            <label name="result" for="result">Total:</label>
+        </div>
+    
+    </div>
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>

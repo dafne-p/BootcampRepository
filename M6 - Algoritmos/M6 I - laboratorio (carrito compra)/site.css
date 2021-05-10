@@ -1,0 +1,41 @@
+body {
+    font-size: 20px;
+    font-family: arial;
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+}
+
+h5, li {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 12px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#product-list-container {
+    display: inline;
+}
+
+#__unit, #__price {
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+#btn, #_subtotal, #_iva, #_total {
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#list-calculate {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product-price {
+    font-size: 17px;
+}
