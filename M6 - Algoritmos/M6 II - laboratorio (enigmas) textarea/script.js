@@ -32,9 +32,8 @@ var transformMessage = message => {
 
 
 function handlerEncrypt() {
-    var texto;
-    document.getElementById("textA").value = texto;
-    transformMessage(texto);
+    var texto = document.getElementById("textA").value;
+    console.log(transformMessage(texto))
 }
 
 document.getElementById("encryptBtn").addEventListener("click", handlerEncrypt);
